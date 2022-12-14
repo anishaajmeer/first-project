@@ -1,9 +1,11 @@
 // ignore_for_file: duplicate_ignore
 
 
+import 'package:first_project/model/form_builder_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'homescreen/home_screen.dart';
+import 'homescreen/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,6 +26,7 @@ class MyApp extends StatelessWidget {
        primarySwatch:Colors.blue
 ),
 // ignore: prefer_const_constructors
-home:HomeScreen());
+home: SplashScreen(),
+);
   }
 }
