@@ -1,10 +1,5 @@
 // ignore_for_file: duplicate_ignore
-
-
-import 'package:first_project/model/form_builder_screen.dart';
 import 'package:flutter/material.dart';
-
-import 'homescreen/home_screen.dart';
 import 'homescreen/splash_screen.dart';
 
 void main() {
@@ -22,11 +17,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-       primarySwatch:Colors.blue
-),
+      theme: ThemeData(primarySwatch: Colors.blue),
 // ignore: prefer_const_constructors
-home: SplashScreen(),
-);
+      home: SplashScreen(),
+    );
   }
 }
