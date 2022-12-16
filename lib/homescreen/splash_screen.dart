@@ -34,6 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
         print(info!);
         username = info![0];
         password = info![1];
+        genderSelected = info![2];
         Navigator.pushAndRemoveUntil(
             context,
             MaterialPageRoute(
